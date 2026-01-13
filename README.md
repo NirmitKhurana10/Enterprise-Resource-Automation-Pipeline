@@ -65,6 +65,31 @@ graph LR
 
 ---
 
+## 🔧 n8n Workflow
+
+### Main Approval Workflow
+
+![Main Workflow](./assets/workflow-main.png)
+
+**Key Nodes:**
+- 📝 **Google Sheets Trigger** → New uniform request
+- ✅ **Stock Validation** → Check inventory availability  
+- 👨‍💼 **Manager Approval** → Email with interactive buttons
+- 📧 **Status Updates** → Notify employees & update database
+- 🔔 **Conditional Routing** → Approve/Reject/Out-of-Stock paths
+
+### Weekly HR Reporting
+
+![Weekly Report Workflow](./assets/workflow-weekly-report.png)
+
+**Automated Process:**
+1. ⏰ Schedule Trigger (Every Monday 10 AM)
+2. 📊 Get All Approved Uniforms from Database
+3. 🎨 Format as HTML Table
+4. 📧 Send Weekly Digest to HR
+
+---
+
 ## ✨ Key Features
 
 <table>
