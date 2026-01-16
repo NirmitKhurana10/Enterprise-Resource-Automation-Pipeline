@@ -17,7 +17,8 @@
 
 ## 🎯 What is This?
 
-An **end-to-end automation framework** that transforms **manual uniform management** into a seamless, intelligent workflow.
+This project establishes a robust ELT pipeline using n8n to ingest raw request data from Google Sheets into a structured PostgreSQL warehouse (Supabase). It enforces data integrity through real-time SQL validation logic, preventing invalid states (e.g., negative inventory) via conditional routing and ACID-compliant updates. A dedicated transactions table captures granular event logs, enabling downstream analysis of critical KPIs such as inventory turnover rates, request-to-fulfillment latency, and fit-error frequency. By automating the transformation of semi-structured inputs into a relational schema, the system eliminates data entry anomalies and creates a scalable "Single Source of Truth" for operational reporting.
+
 
 ### The Impact
 <table>
