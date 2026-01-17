@@ -298,7 +298,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-**Nirmit Khurana** · nirmitkhurana82@gmail.com
+**Nirmit Khurana** · khurananirmit5@gmail.com
 
 **Project Link:** [github.com/yourusername/Enterprise-Resource-Automation-Pipeline](https://github.com/yourusername/Enterprise-Resource-Automation-Pipeline)
 
